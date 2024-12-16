@@ -70,9 +70,12 @@ a:hover {
     color: #9b240f;
 }
 a {
-    color:burlywood; /* changing the color of the links  */
+    color:rgb(26, 19, 9); /* changing the color of the links  */
     text-decoration: solid; /* Optionally remove underline */
     font-weight: bold;
+}
+footer a {
+    color: #9b240f;
 }
 /* Custom style for article elements */
 article h2 {
