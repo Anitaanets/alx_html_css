@@ -17,7 +17,7 @@ body {
     flex: 2; /* Takes up 2/3 of the space */
     overflow-y: auto; /* Enables vertical scrolling */
     font-family: 'Arial, sans-serif';
-    background-color: #f9f9f9;
+    background-color:hsl(150deg 30% 60%);
     padding: 20px;
     border: 2px solid #ddd;
     border-radius: 5px;
@@ -42,7 +42,7 @@ header {
     justify-content: flex-start; /* Align items to the left */
     align-items: center; /* Center items vertically */
     padding: 10px 20px;
-    background-color: rgb(220, 142, 220); /* Background color */
+    background-color:hsl(0 80% 50% / 25%); /* Background color */
     color: white; /* Text color */
 }
 /* For the navigation items */
