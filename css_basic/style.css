@@ -3,6 +3,8 @@ body {
     flex-direction: column; /* Arranges children in a column */
     margin: 0;
     height: 100vh; /* Makes body span the full height of the viewport */
+    background-color: #fafafa;
+    color: #333;
   }
  
   main {
@@ -14,10 +16,76 @@ body {
   article {
     flex: 2; /* Takes up 2/3 of the space */
     overflow-y: auto; /* Enables vertical scrolling */
+    font-family: 'Arial, sans-serif';
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
   }
   
   aside {
     flex: 1; /* Takes up 1/3 of the space */
     overflow-y: auto; /* Enables vertical scrolling */
+    font-family: 'Georgia, serif';
+    background-color: #fffbe6;
+    padding: 15px;
+    border: 3px solid #847c7c;
+    border-radius: 5px;
+    background-color: bisque;
   }
+  /* some more styling*/
   
+  /* Add a background color to the header */
+/* Header style using Flexbox */
+header {
+    display: flex; /* Enable Flexbox layout */
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px;
+    background-color: rgb(220, 142, 220); /* Background color */
+    color: white; /* Text color */
+}
+/* For the navigation items */
+header ul {
+    display: flex; /* Display list items inline */
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+header ul li {
+    margin-left: 20px; /* Space between navigation items */
+}
+
+/* Add styles for the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Add hover effect for links */
+a:hover {
+    text-decoration: underline;
+    color: #9b240f;
+}
+a {
+    color:burlywood; /* changing the color of the links  */
+    text-decoration: solid; /* Optionally remove underline */
+    font-weight: bold;
+}
+/* Custom style for article elements */
+article h2 {
+    color: #111c11;
+    text-align: center;
+}
+
+article p {
+    line-height: 1.6;
+    text-align: justify;
+}
+/* Style the logo */
+header .logo {
+    font-size: 2em; /* Makes the logo larger */
+    margin-right: 20px; /* Add spacing after the logo */
+}
