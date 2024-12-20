@@ -1,0 +1,395 @@
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.image-cover{
+    background-image: url('assets/Object.png');
+    background-repeat: no-repeat;
+    background-size: 1600px;
+}
+
+.navlink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navlink h1 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navlink nav ul {
+    margin: 0 70px 0 70px;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+  
+  .navllnk nav li {
+    margin-left: 20px;
+  }
+  
+  .navlink nav a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-inline: 20px;
+  }
+  a:hover {
+    color: red; /* Change text color */
+    text-decoration: underline; /* Add underline */
+    background-color:#c271ff; /* Add a background color */
+    transition: 0.3s; /* Smooth transition effect */
+}
+  .centerText{
+    margin-top: 120px;
+    text-align: center;
+  }
+
+  .centerText h1 {
+    font-size: 36px;
+    color: #fff;
+  }
+
+  .centerText p {
+    font-size: 18px;
+    display: inline-block;
+    justify-content: space-between;
+    color: #fff;
+    margin-inline: 20px;
+  }
+
+  .centerText button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #c271ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 20px;
+    margin: 0 auto;
+  }
+
+  .title {
+    text-align: center;
+    margin-top: 10rem;
+  }
+
+  .colored-text {
+    color: #c271ff;
+  }
+  
+  .title h1 {
+    color: #fff; 
+    margin-bottom: 10rem;
+  }
+  
+  .pictures {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+  }
+
+  .pictures p {
+    position: absolute;
+    font-size: 10px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+  }
+  
+  .Pic1, .Pic2, .Pic3, .Pic4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .Pic1 img, .Pic2 img, .Pic3 img, .Pic4 img {
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .Pic1 h2, .Pic2 h2, .Pic3 h2, .Pic4 h2 {
+    font-weight: bold;
+  }
+  
+  .Pic1 p, .Pic2 p, .Pic3 p, .Pic4 p {
+    font-style: italic;
+  }
+
+  .person-name {
+    display: flex;
+    background-color: #c271ff;
+    padding: 30px; 
+    justify-content: center;
+    margin-top: -60px;
+  }
+  
+  .person-name img {
+    width: 200px; 
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .person-name div {
+    color: #fff;
+    width: 50%;
+  }
+  
+  .person-name h1 {
+    font-weight: bold;
+  }
+  
+  .person-name p {
+    font-style: italic;
+    font-weight: lighter;
+  }
+
+  /* 3rd Section */
+
+  .popular {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+.popular-peep {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+}
+
+.color-pop{
+  color:#c271ff;
+}
+
+.popular p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.video-start {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+.video-container h1, .video-container p {
+    margin-top: 10px;
+    width: 100%;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.video-container {
+    text-align: justify;
+    position: relative;
+    width: 100%;
+  }
+  
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center the overall container */
+}
+
+.video-container img {
+    width: 300px; /* Adjust the width as needed */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.video-container h1, .video-container p {
+    text-align: left;
+    width: 100%; /* Ensure the text takes full width */
+    margin: 0 auto; /* Center the text within the container */
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px !important;
+    height: 40px; /* Set desired height */
+    cursor: pointer; /* Makes it look like a clickable button */
+    border-radius: 5px; /* Optional: Rounds the corners for a button look */
+    display: inline-block; /* Aligns well in a button-like layout */
+}
+    
+
+.video-container h1, .video-container p {
+    text-align: left;
+}
+
+.name, .video-details {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 7px;
+}
+
+
+.name img {
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name h1 {
+  font-size: 13px;
+  color: #c271ff;
+}
+.name h1, .video-details h1 {
+    flex-grow: 1; /* Make the text take up the remaining space */
+}
+.video-details h1 {
+
+}
+
+.video-details img {
+    width: 55px;
+    margin-left: 70px;
+    margin-left: 10px;
+    margin-top: -50px;
+}
+
+/* End of 3rd  */
+
+.membership {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Divide into 4 equal parts */
+    gap: 20px;
+    background-color: #071629;
+}
+
+.membership h1 {
+  grid-column: 1 / -1; /* Take up all columns */
+  text-align: center;
+  color:  #c271ff;
+  margin-bottom: 20px; /* Add some space before the grid */
+}
+.member {
+  color: white;
+}
+.membership-item {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.membership-item img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: -10px;
+    padding-inline: -20px;
+}
+
+.membership-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.membership-item p {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 70px;
+}
+.membership-button {
+  display: grid;
+    background-color: #071629;
+}
+.membership-button button {
+  margin-left: 500px;
+  width: 200px;
+  background-color: #c271ff;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.faq-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-area: auto;
+}
+
+.faq-item {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-style: none;
+}
+
+.faq-question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faq-answer {
+  color: #666;
+}
+
+.footer {
+  background-color: #071629;
+  height: 10rem;
+  padding: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.social{
+  gap: 1rem;
+  justify-content: right;
+}
+.social img{
+  width: 2rem;
+ height: 2rem;
+}
+.smileschool {
+  display: grid;
+    background-color: #071629;
+}
+.smileschool p {
+  
+  margin-left: 500px;
+  width: 200px;
+  color: white;
+  height: 30px;
+  margin-bottom: 20px;
+}
